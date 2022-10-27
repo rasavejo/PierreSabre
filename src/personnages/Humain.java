@@ -32,7 +32,7 @@ public class Humain {
 	}
 	
 	protected void gagnerArgent(int gain) {
-		capital -= gain;
+		capital += gain;
 	}
 	
 	protected void perdreArgent(int perte) {
