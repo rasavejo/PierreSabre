@@ -20,6 +20,16 @@ public class HistoireTP5 {
 		akimoto.listerConnaissance();
 		akimoto.boire();
 		akimoto.boire("the");
+		Traitre masa = new Traitre("Myamoto","Masamoto","whisky",100);
+		masa.faireLeGentil();
+		masa.ranconner(kumi);
+		masa.ranconner(chonin);
+		masa.ranconner(marco);
+		akimoto.faireConnaissanceAvec(masa);
+		masa.ranconner(kumi);
+		masa.faireConnaissanceAvec(yaku);
+		masa.faireLeGentil();
+		masa.faireConnaissanceAvec(roro);
 	}
 
 }
